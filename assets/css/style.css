@@ -13,7 +13,15 @@ html{
 
 }
 
+#nav{
+    display: inline-block;
+}
+
 #header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50px;
     background-color: black;
 }
@@ -46,7 +54,8 @@ html{
     display: block;
 }
 
-#nav li:hover .nav_item, #subnav li:hover .subnav_item{
+#nav li:hover .nav_item, #subnav li:hover .subnav_item,
+#header .icon_search:hover{
     background-color: antiquewhite;
     color: black;
 }
@@ -54,7 +63,7 @@ html{
 #nav #subnav{
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 260px;
     background-color: black;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
@@ -80,8 +89,22 @@ html{
     text-transform: capitalize;
 }
 
-#slider{
+.nav_arrow_down{
+    font-size: 14px;
+    font-weight: bold;
+}
 
+#header .icon_search{
+    float: right;
+    font-size: 25px;
+    color: white;
+    padding: 12px 15px 15px 15px;
+}
+
+#slider{
+    margin-top: 50px;
+    padding-top: 50%;
+    background: url('/assets/img/slider2.jpg') top center / cover no-repeat;
 }
 #content{
 
