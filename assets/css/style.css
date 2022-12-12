@@ -1,10 +1,3 @@
-/**
-* Template Name: DevFolio - v4.9.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -870,6 +863,18 @@ a:hover {
   background-color: #0078ff;
 }
 
+.general_image{
+  margin: 50px 0;
+}
+
+.general_image img{
+  border-radius: 10%;
+}
+
+#specs{
+  
+}
+
 /*--------------------------------------------------------------
 # specs
 --------------------------------------------------------------*/
@@ -1364,6 +1369,8 @@ a:hover {
   padding: 18px;
   font-style: italic;
 }
+
+
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
